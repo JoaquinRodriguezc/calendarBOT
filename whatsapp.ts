@@ -4,7 +4,7 @@ import {
   useMultiFileAuthState,
   proto,
 } from "baileys";
-import { IaService } from "./ia";
+import { IaService } from "./src/ia";
 
 export class WhatsappService {
   private socket;

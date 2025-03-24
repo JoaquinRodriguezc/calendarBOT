@@ -1,8 +1,8 @@
 import { openai } from "@ai-sdk/openai";
 import { CoreMessage, generateText } from "ai";
-import { CalendarTools } from "./tools";
+import { CalendarTools } from "../tools";
 import { GoogleCalendarService } from "./calendar";
-import { collectTools } from "./utils";
+import { collectTools } from "../utils";
 
 export class IaService {
   constructor(private calendar: GoogleCalendarService) {}
