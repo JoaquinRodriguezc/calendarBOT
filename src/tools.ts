@@ -1,6 +1,6 @@
 import { tool } from "ai";
 import { z } from "zod";
-import { GoogleCalendarService } from "./src/calendar";
+import { GoogleCalendarService } from "./calendar";
 
 export class CalendarTools {
   constructor(private calendarService: GoogleCalendarService) {}

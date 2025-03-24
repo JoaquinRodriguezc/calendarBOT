@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { GoogleCalendarService } from "./calendar";
 import { IaService } from "./ia";
-import { WhatsappService } from "../whatsapp";
+import { WhatsappService } from "./whatsapp";
 
 const calendar = new GoogleCalendarService();
 
