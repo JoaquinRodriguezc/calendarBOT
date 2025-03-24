@@ -44,3 +44,7 @@ pnpm install
 # Start the project
 pnpm start
 ```
+## 🚧 Next Steps
+
+- Add support for recurring events
+- Add support for bot to send reminder notification
